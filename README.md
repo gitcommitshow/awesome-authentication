@@ -1,6 +1,6 @@
 # awesome-authentication
 
-This is compilation of research on authentication using JWT
+This is compilation of research on implementing authentication in applications(Covering authentication using JWT for now, more approaches will follow soon)
 
 ## Fundamentals You Must Know
 
