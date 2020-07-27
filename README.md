@@ -1,4 +1,4 @@
-# awesome-authentication
+![Banner](./banner_awesome_authentication.png)
 
 This is compilation of research on implementing authentication in applications(Covering authentication using JWT for now, more approaches will follow soon)
 
