@@ -81,3 +81,4 @@ This is compilation of research on implementing authentication in applications(C
 ## Useful Tools
 
 * [Encode or Decode JWTs](https://www.jsonwebtoken.io/)
+* [Learn JWT by reverse engineering](https://github.com/gitcommitshow/auth-jwt)
