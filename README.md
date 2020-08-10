@@ -53,12 +53,18 @@ This is compilation of research on implementing authentication in applications(C
 
 * [Discussion: Is refreshing an expired JWT token a good strategy?](https://security.stackexchange.com/questions/119371/is-refreshing-an-expired-jwt-token-a-good-strategy)
 
-## Securtity Risks
+## Securtity Risks and Criticism of JWT
 
 * [JWT attack - signature as MAC](https://snikt.net/blog/2019/05/16/jwt-signature-vs-mac-attacks/)
 * [Recreating JWT validation bypass](https://insomniasec.com/cdn-assets/Insomnia_Security_-_JWT_Validation_Bypass_in_Auth0_Authentication_API.pdf)
 * [3 JWT design flaws](https://rodarmer.squarespace.com/security-blog/2019/7/21/jwt-security-vulnerabilities)
-
+- [Stop using JWT for sessions](http://cryto.net/~joepie91/blog/2016/06/13/stop-using-jwt-for-sessions/) and [part 2: Why your solution doesn't work](http://cryto.net/%7Ejoepie91/blog/2016/06/19/stop-using-jwt-for-sessions-part-2-why-your-solution-doesnt-work/)
+- [Why JWTs Suck as Session Tokens](https://developer.okta.com/blog/2017/08/17/why-jwts-suck-as-session-tokens)
+- [No Way, JOSE! Javascript Object Signing and Encryption is a Bad Standard That Everyone Should Avoid](https://paragonie.com/blog/2017/03/jwt-json-web-tokens-is-bad-standard-that-everyone-should-avoid) (including JWT, JWE and JWS)
+- https://github.com/shieldfy/API-Security-Checklist/issues/6 with more resources
+- [Things to Use Instead of JWT](https://kevin.burke.dev/kevin/things-to-use-instead-of-jwt/)
+- [Branca as an Alternative to JWT?](https://appelsiini.net/2017/branca-alternative-to-jwt/)
+- [Paseto is a Secure Alternative to the JOSE Standards (JWT, etc.)](https://paragonie.com/blog/2018/03/paseto-platform-agnostic-security-tokens-is-secure-alternative-jose-standards-jwt-etc)
 
 ## Implementations(Examples/Demos)
 
